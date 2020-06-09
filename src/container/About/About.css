@@ -1,0 +1,148 @@
+.Main-About {
+height: 100%;
+width: auto;
+display: grid;
+grid-template-columns: 5% 10% 5% 5% 10% 10% 6% 6% 6% 13% 7% 6.5% 6.5% 4%;
+grid-template-rows: 5% 15% 20% 15% 12% 8% 8% 17%;
+
+}
+
+.Gabriela-img{
+    border: 1vw solid#bb4b69;
+    width: 40vw;
+    grid-column-start: 9;
+    grid-column-end: 15;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    z-index: 5;
+}
+
+.Apresentation{
+    border: 2px solid #c5e6ee;
+    background-color: #c5e6ee;
+    grid-column-start: 1;
+    grid-column-end: 14;
+    grid-row-start: 2;
+    grid-row-end: 9;
+    display: grid;
+    grid-template-columns: 10% 10% 12.5% 12.5% 10% 12.5% 22.5% ;
+    grid-template-rows: 5% 5% 20% 10% 5% 2% 9% 9% 15% 0% 20%;
+}
+
+.About-Head-Name{
+    font-size: 5vw;
+    font-family: 'Cinzel', serif;
+    color:#bb4b69;
+    font-weight: 900;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.About-Description {
+    border:#d7f0f7 solid 0.3vw;
+    
+    font-weight: 550;
+    grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start: 7;
+    grid-row-end: 9;
+    justify-content: center;
+       }
+
+.About-Description p{
+    font-size: 3.5vw;
+    font-family: 'Cinzel', serif;
+    color: #7d97c3;
+    margin-left: 11vw;
+  }
+
+  .About-Description p span{
+        color: #bb4b69;
+}
+
+.Button-CV{
+    font-family: 'Cinzel', serif;
+    background-color:#bb4b69;
+    border: 1px solid #bb4b69;
+    color: white;
+    font-size: 3vw;
+    cursor: pointer;
+    grid-column-start: 6;
+    grid-column-end: 10;
+    grid-row-start: 7;
+    grid-row-end: 7;
+    outline: none;   
+}
+
+@media(min-width: 500px){
+    .Main-About {
+        display: grid;
+        grid-template-columns: 5% 10% 5% 5% 10% 10% 5% 5% 15% 5% 5% 13% 7%;
+        grid-template-rows: 10% 10% 20% 15% 12% 8% 8% 17%;
+        
+        }
+        
+        .Gabriela-img{
+            border: 0.6vw solid#bb4b69;
+            width: 24.5vw;
+            grid-column-start: 10;
+            grid-column-end: 13;
+            grid-row-start: 1;
+            grid-row-end: 5;
+            }
+        
+        .Apresentation{
+             grid-column-start: 1;
+            grid-column-end: 13;
+            grid-row-start: 2;
+            grid-row-end: 9;
+            display: grid;
+            grid-template-columns: 10% 10% 25% 10% 35% ;
+            grid-template-rows: 0% 30% 10% 0% 15% 10% 15% 0% 20%;
+        }
+
+        
+        .About-Head-Name{
+            font-size: 3.6vw;
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+
+        
+        .About-Description {
+
+            grid-column-start: 2;
+            grid-column-end: 5;
+            grid-row-start: 5;
+            grid-row-end: 7;
+
+            }
+        
+        .About-Description p{
+            font-size: 2.2vw;
+            margin-left: 1.7vw;
+          }
+        
+          .About-Description p span{
+                color: #bb4b69;
+        }
+        
+        .Button-CV{
+            font-size: 1.1vw;
+            grid-column-start: 3;
+            grid-column-end: 7;
+            grid-row-start: 7;
+            grid-row-end: 7;
+        }
+        
+        
+        
+        
+}
+
+
+

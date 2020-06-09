@@ -1,0 +1,440 @@
+.Fashion{
+    width: 100%;
+    height: auto;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 7;
+    display: grid;
+    grid-template-columns: 48% 4% 48%; 
+    grid-template-rows: 42.5% 15% 42.5%;
+      
+}
+
+
+
+.AnimationLeft{
+    animation-duration: 1s;
+    animation-name: slideinLeft;
+   
+}
+
+@keyframes slideinLeft {
+    from {
+      margin-left: 100%;
+      width: 100%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
+.AnimationRight{
+    animation-duration: 1s;
+    animation-name: slideinRight;
+}
+
+@keyframes slideinRight {
+    from {
+      margin-left: -100%;
+      width: 100%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
+.Ciranda_2{
+    box-sizing: border-box;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: center;
+
+}
+
+.Ciranda_2 img{
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+}
+.Ciranda_3{
+    box-sizing: border-box;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    justify-self: center;
+}
+
+.Ciranda_3 img{
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+}
+
+.Ciranda_4{
+    box-sizing: border-box;
+    box-sizing: border-box;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: center;
+}
+
+.Ciranda_4 img{
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+}
+
+.Ciranda_5{
+    box-sizing: border-box;
+     grid-column-start: 3;
+     grid-column-end: 4;
+     grid-row-start: 3;
+     grid-row-end: 4;
+     justify-self: center;
+}
+
+.Ciranda_5 img{
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+}
+
+/*---------Design-2------------*/
+
+.Graphic {
+    width: 100%;
+    height: 100%;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 7;
+    display: grid;
+    grid-template-columns: 48% 4% 48%; 
+    grid-template-rows: 42.5% 15% 42.5%;
+    box-sizing: border-box;
+}
+.Ciranda_6{
+    box-sizing: border-box;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: center;
+}
+
+.Ciranda_6 img{
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+}
+    
+.Logo_1{
+
+    box-sizing: border-box;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    justify-self: center;
+}
+
+.Logo_1 img{
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+}
+
+.Logo_2{
+
+        box-sizing: border-box;
+        box-sizing: border-box;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        justify-self: center;
+}
+
+.Logo_2 img{
+    
+        box-sizing: border-box;
+        max-width: 100%;
+        height: auto;
+    }
+    
+   
+
+.Logo_3{
+
+        box-sizing: border-box;
+         grid-column-start: 3;
+         grid-column-end: 4;
+         grid-row-start: 3;
+         grid-row-end: 4;
+         justify-self: center;
+   
+}
+
+.Logo_3 img{
+    
+   box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+
+}
+
+/*----------Desing-3-------*/
+
+.Ilustration-Page{
+    width: 100%;
+    height: 100%;
+        grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 7;
+    display: grid;
+    grid-template-columns: 0.5% 24% 1% 24% 1% 24% 1% 24% 0.5%; 
+    grid-template-rows: 20% 29% 2% 29% 20%;
+    box-sizing: border-box;
+   
+    
+}
+
+
+.Ilustration_1{
+    box-sizing: border-box;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    justify-self: center;
+
+}
+
+.Ilustration_1 img{
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+}
+.Ilustration_2{
+    box-sizing: border-box;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    justify-self: center;
+}
+
+.Ilustration_2 img{
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+}
+
+.Ilustration_3{
+    box-sizing: border-box;
+    box-sizing: border-box;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    justify-self: center;
+}
+
+.Ilustration_3 img{
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+}
+
+.Ilustration_4{
+    box-sizing: border-box;
+     grid-column-start: 8;
+     grid-column-end: 9;
+     grid-row-start: 2;
+     grid-row-end: 4;
+     justify-self: center;
+}
+
+.Ilustration_4 img{
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+}
+
+/*-----------WebApp------------*/
+
+.Job-WebApp-Page{
+    width: 100%;
+    height: auto;
+    margin-top: 8vw;
+    display: grid;
+    grid-template-columns: 48% 4% 48%; 
+    grid-template-rows: 42.5% 15% 42.5%;
+    box-sizing: border-box;
+    
+}
+
+.Web_1{
+    box-sizing: border-box;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: center;
+    
+}
+
+.Web_1 img{
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+    
+.Web_2{
+
+    box-sizing: border-box;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    justify-self: center;
+}
+
+.Web_2 img{
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.Web_3{
+
+        box-sizing: border-box;
+        box-sizing: border-box;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        justify-self: center;
+}
+
+.Web_3 img{
+    
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+/*------------BE-----------*/
+
+.Job-BE-Page{
+    width: 100%;
+    height: auto;
+    margin-top: 8vw;
+    display: grid;
+    grid-template-columns: 48% 4% 48%; 
+    grid-template-rows: 42.5% 15% 42.5%;
+    box-sizing: border-box;
+    
+}
+
+.BE_1{
+    box-sizing: border-box;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: center;
+    cursor: pointer;
+}
+
+.BE_1 img{
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+}
+    
+.BE_2{
+
+    box-sizing: border-box;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    justify-self: center;
+    cursor: pointer;
+}
+
+.BE_2 img{
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media (min-width: 500px){
+    .Fashion{
+       
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 7;
+       
+          
+    }
+   
+    /*---------Design-2------------*/
+    
+    .Graphic {
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 7;
+
+    }
+    
+    /*----------Desing-3-------*/
+    
+    .Ilustration-Page{
+    
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 7;
+       
+        
+    }
+  
+    /*-----------WebApp------------*/
+    
+    .Job-WebApp-Page{
+        margin-top: 1vw;
+            
+    }
+
+  
+  
+    /*------------BE-----------*/
+    
+    .Job-BE-Page{
+       
+        margin-top: 1vw;
+       
+    }
+    
+}

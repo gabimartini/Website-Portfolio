@@ -1,0 +1,34 @@
+.Backdrop {
+    position: fixed;
+    z-index: 200;
+    left: 0;
+    top: 0;
+    display: grid;
+    grid-template-columns: 85% 5% 5% 5% ; 
+    grid-template-rows: 50% 50%;
+    width: 100%;
+    height: 10%;
+    
+    
+}
+
+.Backdrop button{
+    color: #bb4b69;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    box-sizing: border-box;
+    justify-self: center;
+    background-color: transparent;
+    border: 2px solid #bb4b69;
+    border-radius: 15%;
+    font-weight: bold;
+   
+}
+
+@media(min-width: 500px){
+   .Backdrop{
+    display: none
+   } 
+}

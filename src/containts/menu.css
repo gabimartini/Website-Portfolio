@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+
+
+.Menu {
+    height: 56px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+    
+ }
+
+
+
+.Menu-Container ul{
+    
+    padding: 0;
+    margin-left: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 30vh;
+    height: 100%;
+    width: 100%;
+  
+   
+}
+
+
+.Menu-Container li{
+  margin: 0;
+  box-sizing: border-box;
+  display: block;
+  height: 100%;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+          
+ }
+
+
+ .Menu-Container a{
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    color: #bb4b69;
+    font-weight: bold;
+    font-size: 4.3vw;
+      
+   }
+
+
+   .Menu-Container li :hover,
+   .Menu-Container li :active,
+   .Menu-Container li :active{
+    padding: 1.5vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    background-color: #f7bcc2;
+}
+
+
+@media (min-width: 500px){
+
+    .Menu {
+        box-shadow:10px 3px 5px 0px rgba(243, 241, 241, 0.75);
+    }
+
+    .Menu-Container ul{
+        margin: 0;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        width: 20vw;
+        margin-left: 50%;
+    }
+
+     
+    
+    
+    .Menu-Container li{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    
+          
+     }
+
+    
+    
+     .Menu-Container a{
+        
+        height: 100%;
+        padding: 16px 10px;
+        border-bottom: 4px solid transparent;
+        font-size: 1.3vw;
+       
+       }
+
+    
+
+}
+
+@media (max-width: 499px) {
+    .DesktopOnly {
+        display: none;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+
+
+.Main-Contact {
+    display: grid;
+    grid-template-columns: 12.5% 10.5% 16.5% 5.5% 3.5% 1% 1% 1% 1% 3.5% 5.5% 16.5% 10.5% 12.5% ; 
+    grid-template-rows: 5% 5% 5% 5% 5% 5% 1% 5% 4% 1% 5% 4% 5% 1% 4% 5% 5% 5% 5.50% 6% 5% 6% 2.5% ;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.Title{
+    grid-column-start: 4;
+    grid-column-end: 12;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    box-sizing: border-box;
+    justify-self: center;
+    font-family: 'Cinzel', serif;
+    color: white;
+    font-size: 2.4vw;
+    z-index: 20;
+}
+
+form{
+    grid-column-start: 2;
+    grid-column-end: 14;
+    grid-row-start: 7;
+    grid-row-end:18 ;
+    box-sizing: border-box;
+    justify-self: stretch;
+    display: grid;
+    grid-template-columns: 41% 19% 40%; 
+    grid-template-rows: 5% 11.5% 10.5% 16.5% 10.5% 11.5% 5% 14% 15.5%;
+}
+.InputSubject{
+    grid-column-start:1 ;
+    grid-column-end:2 ;
+    grid-row-start:1 ;
+    grid-row-end:3 ;
+    box-sizing: border-box;
+    justify-self: stretch;
+    outline: none;
+    border: none;
+}
+.InputName{
+grid-column-start: 1;
+grid-column-end:1 ;
+grid-row-start:4 ;
+grid-row-end: 5;
+box-sizing: border-box;
+justify-self: stretch;
+outline: none;
+border: none;
+}
+
+.InputEmail{
+    grid-column-start:1 ;
+    grid-column-end:1 ;
+    grid-row-start: 6;
+    grid-row-end:8 ;
+    box-sizing: border-box;
+    justify-self: stretch;
+    outline: none;
+    border: none;
+    
+}
+.InputMessage{
+grid-column-start:3 ;
+grid-column-end:4 ;
+grid-row-start:2;
+grid-row-end: 7;
+box-sizing: border-box;
+justify-self: stretch;
+outline: none;
+border: none;
+padding: 1em;
+}
+
+.InputBtn{
+    grid-column-start:2 ;
+    grid-column-end:2;
+    grid-row-start:9 ;
+    grid-row-end:10 ;
+    box-sizing: border-box;
+    justify-self: stretch;
+    padding: 1%;
+    outline-color: white;
+    font-family: 'Cinzel', serif;
+    color: white;
+    background-color: #bb4b69;
+    border: #bb4b69;
+    cursor: pointer;
+    font-size: 2.3vw;
+}
+
+  ::placeholder{
+    font-size: 1.9vw;
+    text-align: center;
+  }
+
+
+  ::-moz-placeholder { /* Firefox 19+ */
+    font-size: 1.1vw;
+    text-align: center;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    font-size: 1.1vw;
+    text-align: center;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    font-size: 1.1vw;
+    text-align: center;
+  }
+
+
+.fa{
+    padding: 1.3vw;
+    font-size: 2.3vw;
+    border: 0.35vw solid #c5e6ee;
+    text-align: center;
+    text-decoration: none;
+    color: #c5e6ee;
+    
+}    
+.fa-linkedin {
+grid-column-start: 5;
+grid-column-end: 7;
+grid-row-start: 19;
+grid-row-end: 20;
+box-sizing: border-box;
+justify-self: center;
+}
+
+.fa-instagram {
+    grid-column-start: 9;
+    grid-column-end: 11;
+    grid-row-start: 19;
+    grid-row-end: 20;
+    box-sizing: border-box;
+    justify-self: center;
+    }
+
+
+.CopyWrite{
+    grid-column-start: 3;
+    grid-column-end: 13;
+    grid-row-start: 21;
+    grid-row-end: 22;
+    box-sizing: border-box;
+    justify-self: center;
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 1.3vw;
+}
+
+@media (min-width: 500px){
+  .Main-Contact {
+    display: grid;
+    grid-template-columns: 12.5% 10.5% 16.5% 5.5% 3.25% 1% 1% 1% 1% 3.25% 5% 16.5% 24%; 
+    grid-template-rows: 5% 5% 5% 5% 5% 5% 1% 5% 4% 1% 5% 4% 5% 1% 4% 5% 5% 5% 7.50% 7% 5% 5% 0.5%  ;
+   
+    
+}
+
+
+.Title{
+    grid-column-start: 5;
+    grid-column-end: 11;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    font-size: 1.4vw;
+}
+
+
+form{
+    grid-column-start: 3;
+    grid-column-end: 13;
+    grid-row-start: 7;
+    grid-row-end:18 ;
+
+}
+
+
+.InputBtn{
+
+    font-size: 1.3vw;
+}
+
+  ::placeholder{
+    font-size: 1.1vw;
+    text-align: center;
+  }
+
+.fa{
+    padding: 1vw;
+    border: 2px solid #c5e6ee; 
+}    
+
+
+
+.CopyWrite{
+ font-size: 0.9vw;
+}
+}
+
